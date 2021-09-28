@@ -1,4 +1,4 @@
-package com.ma.discounts
+package com.ma.lesson16
 
 sealed class DiscountType(
     val calculate: (Int) -> String

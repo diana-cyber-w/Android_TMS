@@ -3,7 +3,6 @@ package com.ma.lesson16
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ma.discounts.Discount
-import com.ma.discounts.DiscountType
 import com.ma.discounts.R
 
 class MainActivity : AppCompatActivity() {
