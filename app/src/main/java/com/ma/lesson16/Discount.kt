@@ -1,5 +1,7 @@
 package com.ma.discounts
 
+import com.ma.lesson16.DiscountType
+
 data class Discount(
     val title: String,
     var description: String,
