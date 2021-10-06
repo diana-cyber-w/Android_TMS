@@ -1,18 +1,10 @@
 package com.ma.homework17
 
-class Discipline(
-    var nameOfDiscipline: String? = null,
-    var idOfDiscipline: Int? = null
+data class Discipline(
+    val name: String? = null,
+    val id: Int? = null
 ) {
-    fun getId(): Int = if (idOfDiscipline == null) {
-        0
-    } else {
-        idOfDiscipline!!
-    }
+    fun getSafeId(): Int = id ?: 0
 
-    fun getSafeNameOfDiscipline(): String = if (nameOfDiscipline == null) {
-        "No discipline"
-    } else {
-        nameOfDiscipline!!
-    }
+    fun getSafeNameOfDiscipline(): String = name ?: "No discipline"
 }
